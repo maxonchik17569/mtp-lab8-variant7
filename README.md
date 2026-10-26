@@ -62,3 +62,12 @@ uv run python -m compileall -q lab8 tests
 `compileall` и pytest на Python 3.13.
 
 Подробный отчёт по заданиям и TDD-циклу — в `docs/report.md`.
+
+## Требования
+
+- Python 3.13 или новее.
+- [uv](https://docs.astral.sh/uv/) для запуска без ручной установки
+  зависимостей.
+- `pytest`, `fastapi`, `httpx` и `flake8` ставятся командами `uv run`.
+- Poetry-конфигурация лежит в `pyproject.toml`; для проверок достаточно
+  `requirements-dev.txt`.
